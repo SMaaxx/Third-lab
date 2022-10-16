@@ -1,0 +1,136 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header {
+    height: auto;
+    width: 100%;
+    background-color: #FFB44E;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo {
+    min-width: 81px;
+    height: 81px;
+    border-radius: 50%;
+    background: #4C64BA;
+    margin: 19px 41px 23px 41px;
+    
+}
+
+.title {
+    width: 998.17px;
+    left: 193.2px;
+    top: 33.75px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 46px;
+    color: #FFFFFF;
+    margin: 33.75px auto 37.73px 30.2;
+}
+
+.link_block {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    background-color: #C2CEFC;
+    height: auto;
+}
+
+.link {
+    margin: 12 77 13 47;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    cursor: pointer;
+}
+
+.content_block {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.news_block {
+    width: 22%;
+    height: 775px;
+    background-color: #E9E7E7;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.general_content {
+    width: auto;
+    height: auto;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+    margin: 29 31 15 47;
+}
+
+.news_title {
+    color: #000000;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 auto 15 0;
+    cursor: pointer;
+}
+
+.news_content {
+    background-color: #D9D9D9;
+    margin: 0 0 0 0;
+    font-size: 12px;
+}
+
+.general_img {
+    margin: 36 auto 17 86;
+    max-width: 1150px;
+    max-height: 558px;
+}
+
+.general_title {
+    margin: 0 auto 17 86;
+    Font-size: 24px;
+    font-weight: bold;
+    max-width: 1150px;
+}
+
+.general_link {
+    margin: 0 auto 39 86;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #28376F;
+} 
+
+.footer_content {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 46 auto 46 52;
+}
+
+.footer_logo {
+    height: 44;
+    width: 47;
+    margin: 53 50 58 auto;
+    background-color: #FFFFFF;
+    border-radius: 25%;
+    cursor: pointer;
+}
