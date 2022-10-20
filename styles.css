@@ -95,8 +95,8 @@ body {
 
 .general_img {
     margin: 36 auto 17 86;
-    max-width: 1150px;
-    max-height: 558px;
+    width: 70%;
+    height: 70%;
 }
 
 .general_title {
